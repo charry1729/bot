@@ -9,10 +9,15 @@ from sklearn.preprocessing import LabelEncoder as LE
 from sklearn.metrics.pairwise import cosine_similarity
 import random
 import nltk
+
+nltk.download('punkt')
+SENT_DETECTOR = nltk.data.load('tokenizers/punkt/english.pickle')
+
 from nltk.stem.lancaster import LancasterStemmer
 
-
 stemmer = LancasterStemmer()
+
+
 def cleanup(sentence):
     word_tok = nltk.word_tokenize(sentence)
     stemmed_words = [stemmer.stem(w) for w in word_tok]
@@ -24,7 +29,7 @@ le = LE()
 
 tfv = TfidfVectorizer(min_df=1, stop_words='english')
 
-data = pd.read_csv('BankFAQs.csv')
+data = pd.read_csv('blockchain_faq.csv')
 questions = data['Question'].values
 
 X = []
@@ -36,7 +41,6 @@ le.fit(data['Class'])
 
 X = tfv.transform(X)
 y = le.transform(data['Class'])
-
 
 trainx, testx, trainy, testy = tts(X, y, test_size=.25, random_state=42)
 
@@ -56,7 +60,6 @@ def get_max5(arr):
         ixs.append(i[1])
 
     return ixs[::-1]
-
 
 
 def chat():
@@ -108,8 +111,8 @@ def chat():
             continue
 
         t_usr = tfv.transform([cleanup(usr.strip().lower())])
-        class_ = le.inverse_transform(model.predict(t_usr)[0])
-        questionset = data[data['Class']==class_]
+        class_ = le.inverse_transform(model.predict(t_usr))
+        questionset = data[data['Class'] == class_[0]]
 
         if DEBUG:
             print("Question classified under category:", class_)
@@ -119,7 +122,7 @@ def chat():
         for question in questionset['Question']:
             sims = cosine_similarity(tfv.transform([question]), t_usr)
             cos_sims.append(sims)
-            
+
         ind = cos_sims.index(max(cos_sims))
 
         if DEBUG:
@@ -131,26 +134,81 @@ def chat():
         else:
             inds = get_max5(cos_sims)
             for ix in inds:
-                print("Question: "+data['Question'][questionset.index[ix]])
-                print("Answer: "+data['Answer'][questionset.index[ix]])
-                print('-'*50)
+                print("Question: " + data['Question'][questionset.index[ix]])
+                print("Answer: " + data['Answer'][questionset.index[ix]])
+                print('-' * 50)
 
-        print("\n"*2)
+        print("\n" * 2)
         outcome = input("Was this answer helpful? Yes/No: ").lower().strip()
         if outcome == 'yes':
             cnt = 0
         elif outcome == 'no':
             inds = get_max5(cos_sims)
-            sugg_choice = input("Bot: Do you want me to suggest you questions ? Yes/No: ").lower()
+            sugg_choice = input(
+                "Bot: Do you want me to suggest you questions ? Yes/No: "
+            ).lower()
             if sugg_choice == 'yes':
                 q_cnt = 1
                 for ix in inds:
-                    print(q_cnt,"Question: "+data['Question'][questionset.index[ix]])
+                    print(
+                        q_cnt,
+                        "Question: " + data['Question'][questionset.index[ix]])
                     # print("Answer: "+data['Answer'][questionset.index[ix]])
-                    print('-'*50)
+                    print('-' * 50)
                     q_cnt += 1
-                num = int(input("Please enter the question number you find most relevant: "))
-                print("Bot: ", data['Answer'][questionset.index[inds[num-1]]])
+                num = int(
+                    input(
+                        "Please enter the question number you find most relevant: "
+                    ))
+                print("Bot: ",
+                      data['Answer'][questionset.index[inds[num - 1]]])
 
 
-chat()
+def FaqAPI(usr):
+    cnt = 0
+    TOP5 = False
+
+    print("Bot: Hi, Welcome to our bank!")
+    t_usr = tfv.transform([cleanup(usr.strip().lower())])
+    class_ = le.inverse_transform(model.predict(t_usr))
+    questionset = data[data['Class'] == class_[0]]
+
+    cos_sims = []
+    for question in questionset['Question']:
+        sims = cosine_similarity(tfv.transform([question]), t_usr)
+        cos_sims.append(sims)
+
+    ind = cos_sims.index(max(cos_sims))
+
+    inds = get_max5(cos_sims)
+    if not TOP5:
+        print("Bot:", data['Answer'][questionset.index[ind]])
+        return data['Answer'][questionset.index[ind]]
+    else:
+        inds = get_max5(cos_sims)
+        for ix in inds:
+            print("Question: " + data['Question'][questionset.index[ix]])
+            print("Answer: " + data['Answer'][questionset.index[ix]])
+            print('-' * 50)
+
+    print("\n" * 2)
+    outcome = input("Was this answer helpful? Yes/No: ").lower().strip()
+    if outcome == 'yes':
+        cnt = 0
+    elif outcome == 'no':
+        inds = get_max5(cos_sims)
+        sugg_choice = input(
+            "Bot: Do you want me to suggest you questions ? Yes/No: ").lower()
+        if sugg_choice == 'yes':
+            q_cnt = 1
+            for ix in inds:
+                print(q_cnt,
+                      "Question: " + data['Question'][questionset.index[ix]])
+                # print("Answer: "+data['Answer'][questionset.index[ix]])
+                print('-' * 50)
+                q_cnt += 1
+            num = int(
+                input(
+                    "Please enter the question number you find most relevant: "
+                ))
+            print("Bot: ", data['Answer'][questionset.index[inds[num - 1]]])

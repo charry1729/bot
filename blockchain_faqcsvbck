@@ -1,0 +1,597 @@
+Question,Answer,Class
+What is the principle on which blockchain technology is based on,It enables the information to be distributed among the users without being copied.,security
+Why is Blockchain a trusted approach,"Blockchain can be trusted due to so many reasons.
+Its compatibility with other business applications due to its open-source nature.
+Its security. As it was meant for online transactions, the developers have paid special attention to keeping up the pace when it comes to its security.
+It really doesn’t matter what type of business one owns, Blockchain can easily be considered.",security
+Name the two types of records that are present in the blockchain database,"These records are block records and transactional records. Both these records can easily be accessed, and the best thing is, it is possible to integrate them with each other without following the complex algorithms.",security
+What are the properties of Blockchain,"Decentralized Systems
+Distributed ledger
+Safer & Secure Ecosystem
+Minting",security
+What is encryption? What is its role in Blockchain?,"Encryption is basically an approach that helps organizations to keep their data secure.The encrypted data is encoded or changed up to some extent before it is sent out of a network by the sender and only authorized parties can access that information.In Blockchain, this approach is useful because it simply adds more to the overall security and authenticity of blocks and helps to keep them secure.",security
+What do you mean by blocks in the blockchain technology?,Blockchain consists of a list of records. Such records are stored in blocks. These blocks are in turn linked with other blocks and hence constitute a chain called Blockchain.,security
+How does a block is recognized in the Blockchain approach,"Every block in this online ledger basically consists of a hash pointer which acts as a link to the block which is prior to it, transaction data and in fact a stamp of time.
+",security
+ Is it possible to modify the data once it is written in a block?,"No, it’s not possible to do so. In case any modification is required, the organization simply has to erase the information from all other blocks too. It is because of no other reason than this, data must be given the extreme care of while using this approach.",security
+What are Block Identifiers?,"In Blockchain, blocks can be identified by the block header hash and the block height.
+
+
+",security
+Is it possible in Blockchain to remove one or more block from the networks,"Yes, it can be done. There are times when only a specific portion of this online ledger is to be considered. With the help of default options and filters, this can easily be done without making a lot of efforts.",security
+What exactly do you know about the security of a block,"Well, a block or the entire blockchain is protected by a strong cryptographic hash algorithm. Each block has a unique hash pointer. Any modification in the block constituents will result in the change in the hash identifier of the block.  Therefore, it offers an excellent level of security. Thus, one needs not to worry about the safety as well as the security of data that is present in a block.",security
+What are Merkle trees? How important are Merkle trees in Blockchain,"Merkle Tree also known as ‘hash tree’ is a data structure in cryptography in which each leaf node is a hash of a block of data, and each non-leaf node is a hash of its child nodes.The benefit of using the Merkle Tree in blockchain is that instead of downloading every transaction and every block, a “light client” can only download the chain of block headers.
+
+Also, if someone needs to verify the existence of a specific transaction in a block, then he doesn’t have to download the entire block. Downloading a set of a branch of this tree which contains this transaction is enough. We check the hashes which are just going up the branch (relevant to my transaction). If these hashes check out good, then we know that this particular transaction exist in this block.",security
+What is a ledger? Is Blockchain an incorruptible ledger?,"Blockchain is considered incorruptible. Any ill-intentioned individual acting alone is powerless. “To take over the network, an attacker would have to control more than 50 percent of its total computing power,” Augier explains. “We hope that’s a theoretical scenario, but we can’t be sure. Should it happen, the individual would take every precaution to avoid being noticed.” Not to mention the energy required to power the computers needed for the blockchain system to work.",security
+Name the common type of ledgers that can be considered by users in Blockchain?,"centralized network, decentralized network , distributed network",security
+ How is a blockchain ledger different from an ordinary one?,The first and in fact the prime difference is Blockchain is a digital ledger that can be decentralized very easily. The chances of error in this approach are far less than that in an ordinary ledger. An ordinary ledger is what that is prepared by hands or by human efforts while the Blockchain performs all its tasks automatically. You just need to configure it in a proper manner and by following all the guidelines.,security
+ What type of records can be kept in a Blockchain? Is there any restriction on same,There is no restriction on keeping records of any type in the Blockchain approach. Industries are using Blockchain for securing all types of records.,security
+The common types of records (to name a few) that can be kept on the Blockchains are:,"Records of medical transactions
+Identity management
+Transaction processing
+Business transactions,
+Management activities
+Documentation",security
+A distributed digital ledger is used for recording transaction in Blockchain. What does the system rely on,The system relies on the network servicing protocol and the nodes of the network.,security
+Name some popular platforms for developing blockchain applications,"After the development of bitcoin, various blockchain platforms started coming up. Ethereum came right after the evolution of Bitcoins, and is one of the popular public platforms for building Blockchain based applications.
+
+Then there is a Hyperledger community for building enterprise-based solutions. Also, Qtum, IOTA, EOS are some of the widely used platforms for building Blockchain.",security
+"What is Double Spending? Is it possible to double spend in a Blockchain system
+","It’s a condition when one digital token is spent multiple times because the token generally consists of a digital file that can easily be cloned. It simply leads to inflation and organizations must bear a huge loss. One of the primary aims of Blockchain technology is to eliminate this approach up to the possible extent.
+
+Blockchain prevents double spending by confirming a transaction by multiple parties before the actual transaction is written to the ledger. It’s no exaggeration to say that the entirety of bitcoin’s system of Blockchain, mining, proof of work, difficulty etc, exist to produce this history of transactions that is computationally impractical to modify.",security
+Each block of a Blockchain consists of which of the following,"A hash pointer to the previous block
+Timestamp
+List of transactions",security
+ first distributed blockchain implementation,bitcoin,security
+Hash identifying each block in the Blockchain is generated using which of the following cryptographic algorithm,SHA256,security
+Which of the following is asymmetric encryption Algorithm,RSA,security
+RSA algorithm? How secure is this algorithm?,"Brute force: It involves all possible secret keys
+Mathematical attacks: In mathematical attack, we are using different techniques, which is similar in effort to factor the product of two primes",security
+Explain the significance of blind signature and how it is useful,"It is a form of digital signature in which the content of a message is disguised (blinded) before it is signed. The resulting blind signature can be publicly verified against the original, unblinded message in the manner of a regular digital signature.
+
+Blind signatures are typically employed in privacy-related protocols where the signer and message author are different parties. Examples include cryptographic election systems and digital cash schemes.",security
+What is Secret Sharing? Does it have any benefit in Blockchain technology?,"It is a well-known fact that security matters a lot in digital transactions. Secret sharing is an approach meant for same. In Blockchain technology it is an approach that divides secret or personal information into different units and sent them to the users on the network.
+
+The original information can only be combined when a participant to whom a share of the secret is allocated agree to combine them together with others. There are several security-related benefits it can offer in Blockchain technology.",security
+what are off-chain transactions?,"off-chain transaction is the movement of value outside of the blockchain. While an on-chain transaction – usually referred to as simply ‘a transaction’ – modifies the blockchain and depends on the blockchain to determine its validity an off-chain transaction relies on other methods to record and validate the transaction.
+",security
+What exactly do you know about executive accounting? Does Blockchain support the same?,"Executive accounting is nothing but a special type of accounting which is designed exclusively for a business that offers services to the people. There is no strict upper limit on services and a business can manage any through the executive accounting. Blockchain has algorithms that are specially meant to handle executive accounting. In fact, it cut down many problems that are associated with the same.",security
+What are the threats to the information you are familiar with?,"There are lots of threats to information in the present scenario. Due to increase in online transactions over the internet, many hackers have become active and are adopting new approaches to hack information and servers that contain financial information.
+
+The major threat is software attack, identity theft, information extortion, as well as sabotage. In addition to this, Trojan horses, worms, and viruses are other trouble creators.
+",security
+How will you handle the risk management when it comes to securing the transactions records,"It is basically a process of finding the threats and all the vulnerabilities to the financial records of an organization. The best thing that can be done with this approach is to take the right countermeasures against them immediately.
+
+Another approach is to pay attention to a backup plan. Based on the value of information, more approaches such as buying new risk management software can simply be considered. The prime risk to information is from black-hat hackers.
+",security
+What is 51% attack,"51% Attack refers to a situation where a group of miners who hold more than 50% of the Network Hash Rate could manipulate with the New transactions (Stopping the transactions to proceed or gaining conformations) or able to reverse the transactions that were recently confirmed and kind of doing Double spend. It is Highly unlikely to be able to do that today but it is possible.
+",security
+"What challenges information leak can impose on an organization?
+","An information leak can cut down the reputation of an organization up to an excellent extent. In addition to this, it can be the reason for organization bearing huge losses. Many organizations who fail to implement security protocols to keep their data secure have already lost the trust of their customers and are struggling very hard to get the same reputation again. The overall profits of any organization can reduce up to 80% if no attention is paid to the online transaction security.
+",security
+What is information processing according to you? What are the key challenges that are associated with it,"The information is often shared on a network. Before actually transmitting it over a network, it needs to be changed into formats that can fit the standards of the channels (the channel is a link between the sender and a receiver).
+
+The work done to convert the information at both sender and receiver end is generally regarded as information processing. The biggest challenge to information processing is securing it during that time. Another challenge is processing bulk information can impose a limit on performance.",security
+Name organizations that can use Blockchain technology?,"There is no strict upper limit on the category of business who can consider this approach. The fact is almost all the businesses are engaged in online or financial transactions that they need to make to run the processes smoothly. Large-scale corporations, financial institutions, private businesses, government departments and even defense organizations can trust this technology very easily.",security
+What are the core requirements for a Business Blockchain?,"A business blockchain requires a shared ledger, smart contract functionality, privacy and trust.",security
+What are the key principles in Blockchain that are helpful in eliminating the security threats that needs to be followed,"Yes, there are a few principles that need to be followed with respect to time. They are:
+1.Auditing
+2.Securing applications
+3. Securing testing and similar approaches
+4. Database security
+5. Continuity planning
+6. Digital workforce training
+
+All these principles are basic and are easy to implement. They are helpful in making the transactions records useful.",security
+ What is a security policy?,"A security policy defines what exactly needs to be secured on a system. It bounds a network user under some core protocols that they all must agree and follow to enhance the overall security. When it comes to information or financial records of an organization, multiple security policies are implemented than just one.
+",security
+ Is the Blockchain Different from Banking Ledgers?,"Banks and accounting systems use ledgers to track and timestamp transactions. The difference is that the blockchain is completely decentralized and an open source. This means that people do not have to rely on or trust the central bank to keep track of the transactions. The peer-to-peer blockchain technology can keep track of all the transactions without the fear of having them erased or lost.
+
+Furthermore, the blockchain, because of its open-source nature, is more versatile and programmable than central banking ledgers. If programmers need new functionality on the blockchain, they can simply innovate on top of already existing software through consensus. This is difficult for central banks because of all of their regulations and central points of failure.
+",security
+Can you list some of the popular consensus algorithms? Why we need different consensus mechanisms,"Some of the popular consensus algorithms are:
+PBFT (Practical Byzantine Fault Tolerance)
+Proof-of-work
+Proof-of-stake
+Delegated proof-of-stake
+Proof-of-elapsed time
+Now, the possible reasons why we need consensus mechanism more than “proof-of-work” are”
+
+Different business needs
+Different use cases
+Also:
+Cryptography/Strength of Algorithm
+Regulation requirements
+Implementation
+Performance
+Tokenization
+Security
+Privacy",security
+Is there any network specific conditions for using Blockchain technology in an organization,"There is no specific condition of using it. However, the network must be a peer-to-peer network under the concerned protocols.  It validates the new block simply and helps organizations to keep up the pace in this matter without investing in third-party applications.
+",security
+ Name the steps that are involved in the Blockchain project implementation?,"Well, there are total six steps involved in this process and they are:
+
+Requirement identification
+Screen ideas consideration
+Project development for Blockchain
+Feasible study on the security
+Implementation
+Controlling and monitoring the project",security
+"Explain a real-life use-case where Blockchain in Stock Market
+Is being used?","
+
+Depositories and transfer agents are a single point of failure
+Registration, transfer, distribution, scrutineering, courier fees
+The more widely held, the higher the administration costs
+Limited Transparency
+
+Information asymmetry leads to market advantages
+Forged securities still a concern
+Counterparty risk is systemic
+How Blockchain solves the problem
+
+The centralized hub can be removed and the blockchain can be used to directly transfer share ownership between investors.
+Blockchain stock-top blockchain interview-edureka
+
+A ledger updated in minutes could save millions in collateral and settlement costs, while also automating banks’ creaky and expensive back office systems.
+",security
+ Problems in Present Stock Market?,Centralized and expensive,security
+What is Blockchain Technology?,"Blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not only financial transactions but virtually everything of value. In simple terms, it is a decentralized distributed database of immutable records that are managed by a cluster of computers but not owned by any single entity. Blockchain is stored as a database or a flat-file.",security
+"What do you mean by blocks in the Blockchain technology
+","A block in the Blockcahin is nothing but just a list of records. When these lists are joined with each other, they are known as Blockchain. For e.g. – an organization has 100 ledger books the combination of which is known as Blockchain and a single ledger would be known as a block.
+",security
+How does a block is recognized in the Blockchain approach,"Every block in this online ledger mainly consists of a hash pointer which acts as a link to the block which is previous to it, transaction data and in fact a stamp of time
+",security
+"Is there any network specific conditions for using Blockchain technology in an organization?
+","No, there is no such specific condition on using it. However, the network must be a peer-to-peer network under the worried protocols. It really validates the new block simply and helps enterprises to keep up the pace in this matter without capitalizing in third-party applications.",security
+ Is it possible to modify the data once it is written in a block?,"No, it is not possible to do so. In case any customization is required, the organization simply has to remove the information from all other blocks too. It is because of no other reason than this, data must be given the extreme care of while using this method.
+",security
+ What type of records can be kept in Blockchain? Is there any restriction on same?,"There is no restriction of keeping records in the Blockchain approach. It must be noted that the record keeping is not just limited to these applications only.
+The common types of records that can be kept on them are:
+1. Records of medical transactions
+2. Identity management
+3. Transaction processing
+4. Events related to organizations,
+5. Management activities
+6. Documentation
+",security
+What is encryption? What is its role in Blockchain?,"Encryption is mainly a method that helps organizations to keep their data secure. In this method, the data is encoded up to some extent before it is sent out of a network by the sender. The only receiver can know how to decode the same. In Blockchain, this method is useful because it simply adds more to the overall security and validity of blocks and help to keep them secure.
+",security
+What exactly do you know about the security of a block?,"A block cannot be customized by all the users on a network. Therefore it provides an excellent level of security. Additionally, every block is secured using cryptography that is another vote in this matter. Thus one needs not to worry about the security of data that is present in a block.
+",security
+Why Blockchain is a trusted approach?,"Blockchain can be trusted due to several reasons. The very first thing is its compatibility with other business applications because of its open-source nature. Second one is its security. As it was intended for online transactions, the developers have paid special attention in keeping up the pace when it comes to its security. It really doesn’t matter what type of business one owns, Blockchain can easily be considered.",security
+" What is Secret Sharing? Does it have any benefit in Blockchain technology?
+","It is a well-understood that security matters a lot in digital transactions. Secret sharing in Blockchain technology is an approach that divides secret or personal information into different units and sent them to the users on the network. The original information can only be combined when a member to whom a share of the secret is allocated agree to combine them together with others. There are several security-related advantages it can offer in Blockchain technology.
+",security
+"Why Blockchain is a trusted approach
+","Blockchain can be trusted due to several reasons. The very first thing is its compatibility with other business applications because of its open-source nature. Second one is its security. As it was intended for online transactions, the developers have paid special attention in keeping up the pace when it comes to its security. It really doesn’t matter what type of business one owns, Blockchain can easily be considered.
+",security
+What is Blockchain Durability and robustness?,"Blockchain technology is like the internet in that it has a built-in robustness. By storing blocks of information that are identical across its network, the blockchain cannot:
+1. Be controlled by any single entity.
+2. Has no single point of failure.
+Bitcoin was invented in 2008. Since that time, the Bitcoin blockchain has operated without significant disruption. (To date, any of problems associated with Bitcoin have been due to hacking or mismanagement. In other words, these problems come from bad intention and human error, not flaws in the underlying concepts.)
+The internet itself has proven to be durable for almost 30 years. It’s a track record that bodes well for blockchain technology as it continues to be developed
+",security
+"What is Transparent and incorruptible in blockchain?
+","The blockchain network lives in a state of consensus, one that automatically checks in with itself every ten minutes. A kind of self-auditing ecosystem of a digital value, the network reconciles every transaction that happens in ten-minute intervals. Each group of these transactions is referred to as a “block”. Two important properties result from this:
+Transparency data is embedded within the network as a whole, by definition it is public. It cannot be corrupted altering any unit of information on the blockchain would mean using a huge amount of computing power to override the entire network.",security
+How does Bitcoin use Blockchain?,"A transaction is a transfer of value between Bitcoin wallets that gets included in the blockchain. Bitcoin wallets keep a secret piece of data called a private key or seed, which is used to sign transactions, providing a mathematical proof that they have come from the owner of the wallet.
+",loans
+ What are the business benefits of blockchain?,"Blockchain consensus mechanisms provide the benefits of a consolidated, consistent dataset with reduced errors, near-real-time reference data, and the flexibility for participants to change the descriptions of the assets they own.
+
+Because no one participating member owns the source of origin for information contained in the shared ledger, blockchain technologies lead to increased trust and integrity in the flow of transaction information among the participating members.
+
+Immutability mechanisms of blockchain technologies lead to lowered cost of audit and regulatory compliance with improved transparency. And because contracts being executed on business networks using blockchain technologies are smart, automated, and final, businesses benefit from increased speed of execution, reduced costs, and less risk, all of which enables businesses to build new revenue streams to interact with clients.",loans
+"What are blockchain requirements?
+","A shared, permissioned ledger is the append-only system of record (SOR) and single source of truth. It is visible to all participating members of the business network.
+A consensus protocol agreed to by all participating members of the business network ensures that the ledger is updated only with network-verified transactions.
+Cryptography ensures tamper-proof security, authentication, and integrity of transactions.
+Smart contracts encapsulate participant terms of agreements for the business that takes place on the network; they are stored on the validating nodes in the blockchain and triggered by transactions.
+",loans
+what is Public Blockchain,"A Public blockchain is a kind of blockchain which is ""for the people, by the people, and of the people."" There is no in-charge it means anyone can read, write, and audit the blockchain. It is an open-source, distributed, and decentralizes public ledger so anyone can review anything on a public blockchain. They are considered to be Permissionless blockchain.
+
+
+",loans
+what is Private Blockchain,"A Private blockchain is a private property of an individual or an organization. It is controlled by a single organization that determines who can read it, submit the transaction to it, and who can participate in the consensus process. They are considered to be permissioned blockchain",loans
+what is Consortium Blockchain or Federated Blockchain,"In this blockchain, the consensus process is controlled by a pre-selected group, i.e., group of companies or representative individuals. These pre-selected group is coming together and making decisions for the best benefit of the whole network. Such groups are also called consortiums or a federation that's why the name consortium or federated blockchain.
+",loans
+What are the types of records that are present in the blockchain database?,"There are two types of records in a blockchain database.
+
+Transactional Records
+Block Records
+Both the records can easily be accessed and can integrate with each other without following any complex algorithm.
+",loans
+List the key features of blockchain?,"The essential properties of a blockchain are:
+
+Decentralized Systems
+Distributed ledger
+Safer & Secure Ecosystem
+Fast
+Low Transaction Fees
+Fault-Tolerant
+Minting
+",loans
+Name some popular platforms for developing blockchain applications,"Some of the popular platforms for developing blockchain are:
+
+Ethereum
+Hyperledger Sawtooth
+Quorum
+Ripple
+R3 Corda
+Qtum
+IOTA
+EOS",loans
+What do you mean by blocks in the blockchain technology ,"A Blockchain consists of a list of records(some or all of the recent transaction). Such records are stored in blocks. Each time a block gets completed, a new block is generated. The block linked with other blocks constitutes a chain of blocks called Blockchain. Each block, after added into the blockchain, will be stored as a permanent database. We cannot delete or reverse any block from the blockchain.",loans
+Every block of Blockchain consist of what elements,"Every block must include these three things:
+
+A hash pointer to the previous block
+Timestamp
+List of transactions",loans
+How can blocks be identified,"Blocks can be identified by their block height and block header hash.
+
+",loans
+Can you modify the data in a block?,"No, it's not possible to modify the data in a block. In case any modification is required, you would have to erase the information from all other associated blocks too.
+",loans
+Can you remove a complete block from a network,"Yes, it is possible to remove a complete block from a network. There are times when only a specific portion of this online ledger is to be considered. There are default options and filters that can help us do this without making a lot of efforts.
+",loans
+"What type of records can be kept in the Blockchain? Is there any restriction on the same
+","No, it is not possible to give restriction for keeping records in the blockchain approach. We can put any type of data on a blockchain such as Bank records, health records, images, Facebook messages, etc.
+
+Some of the common types of records which can be kept in the blockchain are:
+
+Records of medical transactions
+Transaction processing
+Identity management
+Events related to organizations,
+Management activities
+Documentation",loans
+" In what order are the blocks linked in the blockchain
+","Reversed linked list.Blockchain always links each block in backward order. In other words, blockchain links each block with its previous block.",loans
+"What is Cryptocurrency?
+","Cryptocurrency is a digital asset(currencies) which can be used to exchange value between parties. It uses strong cryptography to secure and verify the financial transactions as well as control the creation of new units of that currency. As we know, it is a digital currency, so it doesn't exist physically. Some popular cryptocurrencies are Bitcoin, Litecoin, Z-Cash, Monero, Dash, etc.
+
+We know that the government prints the government currencies like fiat currency such as Dollar, Rupees, Yen or Yuan itself. It means there is a centralized institution exists which can create thousands or millions or billions more of that currency. Unlike government currencies like bitcoin, these type of currencies is created by the same mathematical formulas that make the cryptocurrency work. Thus, cryptocurrencies use decentralized control, which works through distributed ledger technology that serves as a public financial transaction database.
+",loans
+ What are the limitations of blockchain?,"The major limitations of blockchain are:
+
+Lack of Technical Talent
+
+Today, there are a lot of developers available who can do a lot of different things in every field. But in the blockchain technology, there are not so many developers available who have specialized expertise in blockchain technology. Hence, the lack of developers is a hindrance to developing anything on the blockchain.
+
+Network Size
+
+Blockchains require a vast network of users. Therefore it is not much resistant to the wrong action as well as it responds to attacks and grows stronger. The blockchain is a robust network with a widely distributed grid of nodes, which makes it more difficult to reap the full benefit.
+
+Security Flaw
+
+Bitcoin and other blockchains are associated with one considerable security flaw known as a ""51% attack."" This security flaw refers to a situation when a group of ""miners"" takes control of more than half of the blockchain network's computing power. If the miners somehow acquire sufficient computational power, then there is no centralized authority to prevent them from influencing the entire Bitcoin network. It means the attacker can block new transactions from taking place or being confirmed. They are also able to reverse the transactions that have already validated during that same period. Due to this, they could spend coins twice.
+
+For this reason, Bitcoin mining pools are closely monitored by the community who ensure that no one gains such network influence.
+
+Speed and cost of transactions
+
+The first few years of the existence of blockchain, transactions cost are ""nearly free."" But as the network grows, it will NOT be the most cost-effective option of transferring money due to rising transaction costs in the network. From the end of 2016, it processes only seven transactions per second, and each transaction costs around 0.20$.
+
+Consensus Mechanism
+
+In the blockchain, we know that a block can be created in every 10 minutes. It is because every transaction made must ensure that every block in the blockchain network must reach a common consensus. Depending on the network size and the number of blocks or nodes involved in a blockchain, the back-and-forth communications involved to attain a consensus can consume a considerable amount of time and resources.",loans
+what is proof of work,"Proof of Work(PoW) algorithm is used to confirm the transaction and creates a new block to the chain. In this algorithm, miners compete against each other to complete the transaction on the network. The process of competing against each other is called mining. It defines an expensive computer calculation. In this, a reward is given to the first miner who solves each blocks problem.",loans
+what is proof of stake,"In the case of PoS algorithm, a set of nodes decide to stake their own cryptocurrencies for the transaction validation. They are called 'stakers.' In proof of stake, the creator of a new block is chosen in a deterministic way, depending on its wealth, also defined as stake. It does not give any block reward, so miners take the transaction fees only. Proof-of-Stake can be several thousand times more cost-effective as compared to proof of work.",loans
+How does the security of a block works?,"A blockchain is a chain of blocks that contain records of transactions. Block is the most secure part of a blockchain. The record of a blockchain is protected through a cryptographic hash algorithm. Each block is connected with all other blocks before and after it through a distinctive hash pointer which adds more security to the block. If the value within a block is modified, the hash value will also change. This hash is a security identifier which provides a reasonable level of security to the whole blockchain.
+
+Ambitious hackers also need to know the hash key of the previous block to make changes to the block information. For those ambitious hackers, blockchains are decentralized and distributed across peer-to-peer networks that are continuously updated and keep syncing. Since these records are not contained in a central location, so blockchains don't have a single point of failure and cannot be changed from a single computer.",loans
+What is the difference between public and private key?,"The private key is used to encrypt or lock a message or transaction which is sent on the blockchain network. The sender can send a message using the public key of the receiver. On the other hand, the receiver can decrypt the message or the transaction using his private key. By using the private and public key, the communication or transaction is kept safe and tamper-proof.
+",loans
+Name the platforms that are actively developing Blockchain applications,"Blockchain technology was first used for financial transactions. But nowadays, its scope is increasing and applies in a variety of industries like e-commerce, data management, energy, gaming, e-governance, and many more. There are several commercial and open-source platforms available to provide the framework for creating applications that support a blockchain. Hyperledger and Ethereum are actively improving the blockchain ecosystem by creating advanced cross-industry blockchain technologies.
+
+.",loans
+what is hyperledger,"Hyperledger is an open-source collaboration that provides tools and techniques for developing an enterprise-grade blockchain solution. While Ethereum is an open-source and leading platform designed for developers, organizations, and business to build and deploy blockchain applications",loans
+How does bitcoin use blockchain?,A transaction is a transfer of value between Bitcoin wallets that gets included in the blockchain. Bitcoin wallets keep a secret piece of data called a private key. The private key is used to sign transactions and provide mathematical proof that they have come from the owner of the wallet.,loans
+"What is Consensus algorithm?
+","The consensus algorithm is the method of gaining consensus on a change of data over the system or distributed network. Consensus algorithms are heavily used in blockchains as they enable the network of unknown nodes to reach consensus on the data that is being stored or shared through the blockchain.
+
+",loans
+What is the difference between private and public blockchain?,The basic difference between private and public blockchain is how they operate. The private blockchain is based on a closed ecosystem and hence is controlled in a certain way. Public blockchain are open to everyone.,loans
+ What’s is the difference between blockchain and centralized network?,"The main difference between a centralized network and blockchain is how they are controlled. The blockchain is completely decentralized and doesn’t require a central authority. Inadvertently, it also brings benefits to blockchain such as trust, transparency, immutability and so on.",loans
+Why is blockchain more trustworthy?,"The blockchain is trustworthy because of many reasons. The first reason is the security that blockchain offers. It is the most secure technology solution right now. Next, it is entirely decentralized. This removes the need for a centralized entity and the risks associated with it.
+
+The last feature that makes blockchain more trustworthy is immutability. Data once stored cannot be changed.",loans
+ How secure is blockchain? Have they even be hacked?,"The blockchain is comparatively secure when compared to other similar technologies right now. However, they are not completely secure as it is vulnerable to a 51% attack. A 51% attack is a way by which a group of miners or organization gains access to the more than 50% of the networking computer power. Once done, they can easily take control and alter transactions in the network which can lead to asset theft and data alteration.
+
+Blockchain platforms are also prone to another form of human errors. The most prominent example is the ETC-ETH fork that happened because a coder deleted some ethereum smart contract code which leads to ETH lock. It became inaccessible which lead to a hard fork in the blockchain.
+
+The 51% attack is theoretically possible but is hardly carried out in the real world as it would require huge computational processing power.",loans
+What is the difference between the standard ledger and a blockchain ledger,"The biggest difference between these two type of ledger is the decentralization that they have to offer. Blockchain ledger is decentralized which means that it offers unique capabilities such as trust, immutability, transparency, and security. Standard ledger does carry these features but is limited to certain extent.
+
+As humans create, modify and monitor the standard ledger, there is always a chance of an error creeping in or worse a security breach. Blockchain ledger solves all the problems that standard ledger have by providing a decentralized version.",loans
+What type of records blockchain supports? Is there any restriction for record keeping?,"Medical records
+Supply chain management records
+Employee records
+Transaction/eCommerce records
+Management records
+Documentation
+Music records etc etc",loans
+What is a Virtual Machine?,"Virtual Machine runs as a part of a node computer. It is a virtual state of a machine that mimics a real machine. It is imaginary and provides certain functionalities in a pre-defined state. Virtual machine also works and don’t have to rely on the host computer or machine. The key point here is abstraction which is used to provide an operating environment for an application or service to work.
+
+All the blockchain have their virtual machine. They are designed and work differently. For example, VM used by Bitcoin and Ethereum are different. Ethereum virtual machine is also more advanced that of Bitcoin. It can stay on an Ethereum node and interact with smart contracts.",loans
+ Can RSA be attacked?,"Yes, hackers can attack RSA. However, being attacked is not equal to weak protection. It is just the methods that can be used to attack it and take a chance to break it. There are two ways, one can attack RSA, i.e., brutal force and mathematical attacks.",loans
+What are the key principles that need to be followed to make blockchain secure?,"Auditing
+Security testing
+Securing applications
+Continuity planning
+Database security
+Digital workforce training.",loans
+Will blockchain change the world,"The blockchain is going to revolutionize our daily life. It has the potential to change how we spend and transact. Also, it is already changing various sectors such as transport, education, business, and so on. As it allows a peer-to-peer network, it will become easier to do business without any geographical restrictions.
+
+Healthcare, for example, will also benefit from it by providing a place to store information for seamless access by authorities and patients.",loans
+"What is blockchain software?
+","Blockchain software is like any other software. The first of its kind was Bitcoin, which was released as open source software, making it available to anyone to use or change. There are a wide variety of efforts across the blockchain ecosystem to improve upon Bitcoin’s original software. Ethereum has its own open source blockchain software. Some blockchain software is proprietary and not available to the public. ",loans
+"What is a blockchain database?
+","Historically, databases have incorporated a centralized client-server architecture, in which a sole authority controls the central server. This design means that data security, alteration, and deletion rests with a single point of failure. The decentralized architecture of blockchain databases emerged as a solution for many of the weaknesses of centralized database architecture. A blockchain network consists of a large number of distributed nodes––voluntary participants who must reach consensus and maintain a single transactional record together. ",loans
+"How does a blockchain work?
+","When a digital transaction occurs in a blockchain network, it is grouped together in a cryptographically-secure “block” with other transactions that have occurred in the same time frame. The block is then broadcast to the network. A blockchain network is comprised of nodes or participants who validate and relay transaction information. The block of transactions is verified by participants called miners, who use computing power to solve a cryptographic puzzle and validate the block of transactions. The first miner to solve and validate the block is rewarded. Each verified block is connected to the previously verified block, creating a chain of blocks. One important cryptographic underpinning of blockchains is the hash function. Hashing assigns a fixed value to a string that is inputted into the system. Blockchain hashing power results in a deterministic, quickly-computable, and preimage-resistant system. ",loans
+"What is a blockchain application?
+","Blockchain applications are comparable to conventional software applications, except they implement a decentralized architecture and cryptoeconomic systems to increase security, foster trust, tokenize assets, and design new network incentives. Here are over 90 Ethereum apps that are currently being used across the Ethereum blockchain ecosystem, from prediction markets to smart legal agreements. ",loans
+"What is the blockchain revolution?
+","Blockchain is considered a disruptive technology because of its ability to safeguard personal information, reduce intermediaries, unlock digital assets, and potentially open up the global economy to millions more participants. Sometimes called the Trust Machine, blockchain technology is bringing transparency and security to digital networks across countless industries. In many ways, the blockchain revolution can be considered a revolution in trust. ",loans
+"What is decentralized finance (DeFi)?
+","Decentralized finance—often called DeFi or open finance—refers to the economic paradigm shift enabled by decentralized technologies, particularly blockchain networks. DeFi signals the shift from a historically centralized and closed financial system toward a universally accessible economy that is based on open protocols that are interoperable, programmable, and composable. From streamlined and secure payment networks to automated loans to USD-pegged stablecoins, decentralized finance has emerged as one of the most active sectors in the blockchain space. Some of the defining factors of a DeFi application include permissionless architecture (anyone can participate), transparent and auditable code, and interoperability with other DeFi products. DeFi Score offers a single, consistently comparable value for measuring DeFi platform risk. ",loans
+"What is a block in a blockchain?
+","The “block” in a blockchain refers to a block of transactions that has been broadcast to the network. The “chain” refers to a string of these blocks. When a new block of transactions is validated by the network, it is attached to the end of an existing chain. This chain of blocks is an ever-growing ledger of transactions that the network has validated. We call this single, agreed-upon history of transactions a blockchain. Only one block can exist at a given chain height. There are several ways to add new blocks to an existing chain. These are often termed “proofs,” i.e. Proof of Work (PoW), Proof of Stake (PoS), and Proof of Authority (PoA). All involve cryptographic algorithms with varying degrees of complexity. ",loans
+"What is block time?
+","Depending upon how a particular blockchain protocol was developed, the time that it takes for a block to be added to the canonical chain can vary widely. A blockchain is a linear construct in that every new block occurs at a later time than the one that preceded it and cannot be undone. A blockchain’s linearity serves as an ideal form of validation. According to ethstats.io as of July 2019, for the Ethereum blockchain, new blocks are added approximately every 14 seconds.",loans
+"What is distributed ledger technology?
+","Distributed ledger technology is a broad category that encompasses blockchain technology. A distributed ledger is just what its name implies. Instead of accounting for data through one centralized computer, distributed ledger technology uses many participants in a network to maintain a digital record. Blockchain technology supplements a distributed ledger with cryptographic functions and a consensus algorithm to enable greater incentive design, security, accountability, cooperation, and trust. 
+
+",loans
+"What is a blockchain wallet?
+","A blockchain wallet contains the public key for others to transfer cryptocurrency to your address and the private key so you can securely access your own digital assets. A blockchain wallet usually accompanies node hosting and stores cryptocurrencies on your computer. The safest place for storing digital assets is offline, what is often called “cold storage.”",loans
+"What are zk-SNARKs?
+","zk-SNARK is an acryonym for zero-knowledge succinct non-interactive argument of knowledge, a cryptographic proof system that enables a user to verify a transaction without revealing the actual data of the transaction, and without interacting with the user who published the transaction. In the context of a blockchain, zk-SNARKs allow users to maintain private transactions, while still validating the transactions according to the network’s consensus algorithm",loans
+"What is Ethereum?
+"," In 2015, the Ethereum blockchain launched as a much more versatile version of the Bitcoin payment system’s underlying blockchain technology. Ethereum is a decentralized, open source, and distributed computing platform that enables the creation of smart contracts and decentralized applications, also known as dapps. Smart contracts are computer protocols that facilitate, verify, or enforce the negotiation and performance of some sort of agreement. Ethereum brought the first practical solution for smart contracts to the blockchain space. ",loans
+"How does Ethereum work?
+","Like the Bitcoin blockchain, Ethereum utilizes nodes that are operated voluntarily in order to verify transactions in the network. Nodes can contain the entirety or a segment of Ethereum transaction history, the most recent information about the state of smart contracts, the balances of accounts, and more. At the foundation of Ethereum is the Ethereum Virtual Machine (EVM), which is the executable and trustless environment for smart contracts: computer protocols that facilitate, verify, and enforce the negotiation and performance of some sort of digital agreement. The EVM executes a contract with whatever rules the developer initially programmed, such as sending money from Alice to Bob. The EVM executes these programs through a bytecode language. Ethereum developers are able to use Ethereum programming languages such as Solidity and others to write smart contracts and build decentralized applications. ",loans
+"What is an Ethereum block?
+",A “block” in the Ethereum blockchain refers to a block of transactions that has been broadcast to the network. The Ethereum mainnet currently uses the Proof of Work consensus algorithm to verify blocks of transactions.,loans
+"What is an Ethereum smart contract?
+
+","Ethereum pioneered practical smart contracts for the blockchain ecosystem. A smart contract is essentially a program coded for a specific purpose. Ethereum-based smart contracts have numerous applications. In banking and finance, smart contracts can help automate claims processing and enable real-time enforcement of regulatory control limits. In supply chain management, smart contracts are used to enforce asset tracking processes, as well as automate compliance and reporting. Smart contracts have limitless formats in order to support a wide range of industries.",loans
+"What is an Ethereum client?
+","An Ethereum client is a software application that implements the technical specification defined in the Ethereum Yellow Paper or the EEA specification (for enterprise applications) and refers to any node that is able to parse and verify the blockchain, its smart contracts, or anything related. Open standards and interoperability enable Ethereum clients to communicate over the peer-to-peer network with other Ethereum clients, meaning that they all “speak” the same protocol and follow the same rules. Popular Ethereum clients include Quorum by J.P. Morgan, Parity, Geth, and Hyperledger Besu, which was built by the protocol engineering team at PegaSys. Hyperledger Besu, which was developed for enterprise use cases, includes a robust set of permissioning features and operates across both public and private chains. PegaSys Plus, a commercial distribution of Besu, has additional plugin features and support, including encryption at rest, advanced monitoring, and event streaming",loans
+"What is ether (ETH)?
+","Ether is Ethereum’s native token and the fuel that powers the Ethereum blockchain. On Ethereum, each operation (many of which can be combined to create a single unique smart contract or transaction) requires a certain amount of computing energy to perform. Because miners must use energy to complete these operations, a unit of measurement was created to monitor and compensate miners for the work they spend running transactions and smart contracts. This unit of measurement is called gas. Gas is a unit of measurement that is unique to the Ethereum blockchain and that measures the computational work required to run transactions or smart contracts within the EVM. The more energy required to run an operation (i.e. a more complex piece of code), the more gas is required. The value of each unit of gas is expressed in ether. Ether therefore provides an incentive for miners to validate blocks of transactions and for developers to write concise, quality code. ETH is the symbol for ether. Note that “eth” is also a command line used for importing the Ethereum wallet. ",loans
+"What is an ETH address?
+","All cryptocurrencies require addresses, or public identifiers, to send and receive funds. An ETH address is specific to Ethereum’s ether currency. Miners also need to set up an “etherbase,” which is a set address that will collect earnings from mining
+",loans
+"How can I earn ether (ETH)?
+
+","There are a variety of ways to earn ETH, both on and off the Ethereum blockchain. ETH is one of the most popularly traded cryptocurrencies and available on most exchanges. ETH is also becoming an increasingly popular way to compensate freelancers. Global freelance marketplaces like Bounties Network allow developers, designers, translators, and users from various disciplines to earn ETH for fulfilling tasks. Of course, mining Ethereum and supporting the network is one way to be rewarded in ETH. ",loans
+"How long does it take to transfer ether?
+","Ethereum confirmation times vary widely depending upon the amount of gas one is willing to spend, along with other market factors
+",loans
+"What is the gas limit in Ethereum?
+","The Ethereum gas limit is one of three core concepts of ether. The others are cost and price. Limits are set as the maximum payment one is willing to incur to complete a transaction. If a gas limit is set too low, it is possible that the transaction will fail. This is because the miner who attempts the transaction will go on and execute operations until the gas limit is reached. If additional operations are required, then the miner keeps the gas as fees for work done and the system records the transaction as “failed.” Gas limits are important because they protect both users and miners from faulty codes and network attacks. They are relevant because the dynamic nature of the Ethereum blockchain is comprised of a variety of smart contract operational levels. Not all transactions are the same and therefore require different amounts of gas to fuel their operations. 
+",loans
+"What is Ethereum coded in?
+","Ethereum smart contracts can be coded in Solidity, Serpent, LLL, and Mutan. These are contract-oriented, high-level languages. Their purpose is to target the Ethereum Virtual Machine (EVM) to provide a means for smart contracts. The Ethereum protocol has been developed using a variety of languages, from C++ to Python, Ruby, Go, Java, Rust, and more. 
+
+",loans
+"What is Ethereum used for?
+","There are a wide range of Ethereum use cases and applications, from payment settlement to supply chain tracking to digital identity management. Ethereum’s flexibility, modularity, agility, and scalability has attracted thousands of developers to the ecosystem, as well as global enterprises that are interested in deploying blockchain solutions to meet critical business needs. 
+
+",loans
+"What is the Enterprise Ethereum Alliance?
+","The Enterprise Ethereum Alliance (EEA) was formed in 2017 to accelerate the adoption of Ethereum in enterprise endeavors and to provide global standards for Enterprise Ethereum development. The Alliance uses an open architecture for testing and certification and focuses on providing resources for trust, privacy, and performance to foster a community that supports open source blockchain solutions. ",loans
+"What’s the difference between Bitcoin and Ethereum?
+","Many of the underlying principles of Bitcoin and Ethereum are the same. They share many cryptographic functions common to blockchain technology, and both blockchain networks currently use a Proof of Work consensus algorithm. However, Ethereum was developed to address opportunities that are beyond the scope of the Bitcoin blockchain. The key element that distinguishes Ethereum from Bitcoin is smart contracts––agreements that are embedded in code so that they can automatically execute. Among the other fundamental differences between Bitcoin and Ethereum are their programming languages. Bitcoin uses a stack-based language while Ethereum uses a Turing-complete language. Their block times and hashing algorithms are also different.",loans
+"What’s better, Bitcoin or Ethereum?
+","Bitcoin and Ethereum both offer unique advantages. Bitcoin was the first blockchain and has therefore seen broad adoption as a fair payment settlement solution. Ethereum was developed to meet the needs that Bitcoin created a demand for after disrupting the way that digital networks are architected and governed. Ethereum’s smart contracts make it much more than a payment solution. It has applications in supply chain tracking, energy and sustainability, real estate, government, and many other sectors. Given the current state of blockchain systems, Ethereum’s architecture most closely resembles what is required of a universal root chain that can provide decentralized and secure base layer settlement for interoperating blockchain networks. 
+
+",loans
+"What is Byzantium Ethereum?
+
+","In October 2017, Ethereum initiated a hard fork for its Byzantium update. Byzantium was part of Ethereum’s third-stage release, called Metropolis live. Byzantium brought nine Ethereum Improvement Protocols (EIPs) that improved privacy, scalability, and security throughout the network. The Byzantium upgrade was followed by the Constantinople hard fork in February 2019, which integrated five EIPs and reduced the block reward from 3 to 2 ETH. 
+
+",loans
+"What is Ethereum mining?
+","On the Ethereum blockchain, miners currently use a Proof of Work (PoW) algorithm to settle transactions. They are rewarded financially for their efforts. There are ongoing plans to make Ethereum a Proof of Stake (PoS) system. Proof of Stake dictates that two-thirds of validators must stake ETH on the next block, meaning the financial incentive is much riskier for potential malicious actors. 
+
+",loans
+"How long does it take to mine Ethereum?
+","Ethereum is mined in blocks. According to ethstats.io, the average Ethereum block time as of July 2019 is approximately 13 seconds.
+
+",loans
+"What is the hashrate of Ethereum?
+","Hashrate refers to the speed at which an Ethereum miner operates, specifically the number of hashes guessed per second for solving the nonce of a block of transactions. According to ethstats.io, the average Ethereum network hashrate as of July 2019 is 166.46 TH/s. 
+
+
+",loans
+"Can I mine Ethereum?
+
+","Mining Ethereum becomes increasingly difficult over time. Most miners use a mining pool, which allows participants to pool their hashing power. Currently, solo mining is very difficult––it can take years to find a single block. Mining pools however have proven to deliver consistent profits to participants.
+
+",loans
+"Can my computer mine Ethereum?
+","Your computer’s ability to mine Ethereum depends upon your GPU power. While dedicated mining hardware is often recommended, some powerful computers can contribute to a mining pool. 
+
+",loans
+"What is Ethereum difficulty?
+","Ethereum difficulty refers to miners’ hashing function and the difficulty of finding a new block. At higher difficulties, it is harder for miners to find valid blocks. According to ethstats.io, the average difficulty of the Ethereum network as of July 2019 is 2.2075 PH.  
+
+",loans
+"What do you need to mine Ethereum?
+","While there are cloud mining applications that offer people the opportunity to share in the profits of mining Ethereum, it is not a pure form of mining. This is more of an investment or rental option. Mining ETH alone is currently impractical, so most miners participate in mining pools, which generally proves more profitable. Dedicated mining hardware is advised even to mine as part of a pool. 
+
+
+",loans
+"Can you mine Ethereum on a laptop?
+","Yes, it is possible to mine Ethereum using a laptop. You will need to install specific software for your OS. However, mining Ethereum on a personal computer is currently impractical. Many products are available with dedicated hardware specifically for mining. They are made to operate efficiently so that miners can maximize their profits. 
+
+",loans
+"How much Ethereum can I mine in a day?
+","The reward for mining Ethereum depends on several factors: your equipment, whether you participate in a mining pool, and the state of the blockchain. According to Alethio’s 2018 research report on mining pools, miners in the top four mining pools received approximately 0.04% payout. This payout is more lucrative than it seems considering that the top five pools were found to mine 84% of all newly found blocks. For example, Ethermine, the top mining pool for the week measured, found 11,235 blocks.
+
+",loans
+How is the hash (Block signature) generated,"he process of generating a block signature involves:
+
+Passing transaction details through a one-way hash function i.e., SHA-256.
+Running the output value through a signature algorithm (like ECDSA) with the user’s private key.
+Following these steps, the encrypted hash, along with other information (such as the hashing algorithm), is called the digital signature.",loans
+ What is a smart contract and list some of its applications,"Smart contracts are self-executing contracts which contain the terms and conditions of an agreement between the peers
+
+Some of the applications are:
+
+Transportations: Shipment of goods can be easily tracked using smart contracts
+
+Protecting copyrighted content: Smart contracts can protect ownership rights such as music or books
+
+Insurance: Smart contracts can identify false claims and prevent forgeries
+
+Employment contract: Smart contracts can be helpful to facilitate wage payments",loans
+What is Ethereum network and how many Ethereum networks are you familiar with?,"Ethereum is a blockchain-based distributed computing platform featuring smart contract functionality that enables users to create and deploy their decentralized applications
+
+There are three types of networks in Ethereum:
+
+Live network (main network) - Smart contracts are deployed on the main network
+Test network (like Ropsten, Kovan, Rinkeby) - Allow users to run their smart contracts with no fees before deploying it on the main network  
+Private network - Are those which are not connected to the main network. They run within the premises of the organization but carry the features of an Ethereum network.",loans
+Where do nodes run a smart contract code,"Nodes run smart contracts code on Ethereum Virtual Machine (EVM). It is a virtual machine designed to operate as a runtime environment for Ethereum-based smart contracts.
+
+EVM is operated in a sandboxed environment (isolated from the main network). This is a perfect testing environment.
+
+You can download the EVM, run your smart contract locally in an isolated manner and once you have tested and verified it, you can deploy it on the main network.",loans
+"What is a Dapp and how is it different from a normal application?
+","A Dapp is a decentralized application which is deployed using smart contract
+A Dapp has its back-end code (smart contract) which runs on a decentralized peer-to-peer network
+Process:
+Front-end
+Smart contract (backend code)
+Blockchain (P2P contract)
+Normal application:
+
+Normal application has a back-end code which runs on a centralized server
+It’s a computer software application that is hosted on a central server
+Process:
+Front-end
+API
+Database (runs on the server)",loans
+Name the steps that are involved in the Blockchain project implementation.,"Requirement identification:
+
+Identify the problem and goal
+Identify the most suitable consensus mechanism
+Identify the most suitable platform
+Account for implementation and deployment costs
+Planning stage
+
+In this stage and individual evaluates all requirements and decides a suitable blockchain platform to be implemented.
+Development and implementation of a project
+
+Designing the architecture
+Designing the user interface
+Building the APIs
+Controlling and monitoring the project
+
+Applying Proof of Concept (POC)
+Identifying and fixing issues",loans
+ explain the parts of EVM memory.,"The memory of an EVM is divided into three types:
+
+Storage:
+
+Storage values are stored permanently on the Blockchain network
+It is extremely expensive
+Memory:
+
+Memory is a temporary modifiable storage
+It can be accessed only during contract execution. Once the execution is finished, its data is lost
+Stack:
+
+A stack is temporary and non-modifiable storage.
+Here, when the execution completes, the content is lost.",loans
+What happens if the execution of a smart contract costs more than the specified gas?,"Initially, your transaction will be executed, but if the execution of a smart contract costs more than the specified gas, then the miners will stop validating your contract. The Blockchain will record the transaction as failed, also the user doesn’t get a refund.",loans
+What does the gas usage in a transaction depend on and how is transaction fee calculated?,"Gas usage depends upon the amount of storage and set of instructions (codes) used in a smart contract. The transaction fee is calculated in Ether, which is given as:
+
+Ether = Tx Fees = Gas Limit * Gas Price",loans
+What is the fork? What are some of the types of forking?,"There are three types of forking:
+
+Hard forks
+Soft forks
+Accidental forks",loans
+What is mining difficulty,"Mining difficulty is the degree that determines how hard it is for miners in terms of hashing power (and thus also time) to find an eligible hash aka signature for their block (a block of transactions needs an eligible hash to be verified and added to the blockchain). On the Bitcoin blockchain, miners try to find an eligible hash by hashing random numbers.
+
+A block of transactions will only be accepted by the rest of the network if it has a signature (hash) that meets certain requirements (in example of Bitcoin, the signature needs to start with a certain number of zeroes). In order to find this signature, miners are spending computational power (hashing power) to perform a set of pre-determined operations on random numbers untill they find a number that leads to an output number that meets the requirements.
+
+Finding an output that starts with only one zero is much easier (generally more common) than finding an output number that starts with five consecutive zeroes (this is pretty rare so it would take much more time to find a number that leads to such output).
+
+For example block 100 (back in 2009) only required a signature that started with eight consecutive zeroes, whereas the last recent block (block 542865) needed a signature that started with at least 18 consecutive zeroes.
+
+",loans
+ Explain why there is a fixed supply of bitcoins?,"There is a fixed supply of bitcoins. There will never be more than 21 million bitcoins. Bitcoins are created each time a user discovers a new block. The rate of block creation is adjusted every 2016 blocks to aim for a constant two week adjustment period (equivalent to 6 per hour).
+
+The number of bitcoins generated per block is set to decrease geometrically, with a 50% reduction every 210,000 blocks, or approximately four years. The result is that the number of bitcoins in existence will not exceed slightly less than 21 million.",loans
+" What is a trapdoor function, and why is it needed in blockchain development?",A trapdoor function is a function that is easy to compute in one direction but difficult to compute in the opposite direction unless you have special information. Trapdoor functions are essential for public key encryption—that’s why they are commonly used in blockchain development to represent the ideas of addresses and private keys.,loans
+Explain why a blockchain needs tokens to operate,"Coins/tokens are used to implement changes between states. When somebody does a transaction, this is a change of state, and coins are moved from one address to another. Apart from that, transactions can contain additional data, and a change of state is used to mutate data—the only way to do this in an immutable-by-definition blockchain.
+
+Technically, a blockchain doesn’t need coins for its essential operations, but without them, some other way needs to be introduced to manage states of the chain and to verify transactions.",loans
+How do verifiers check if a block is valid?,"Every full node on the network does block verification. When a new block is announced, every node that receives it does a list of checks. The two most important checks are of proof of work (if a block provides enough work to be included into chain) and of the validity of all transactions (each transaction must be valid).
+
+",loans
+compare cryptographic algorithms used in Blockchain,"Triple DES: DES stands for digital encryption system which uses 3 different keys of 56 bits.
+RSA: It is used in several areas in the digital certificate which is a public key encryption algorithm to encrypt the information transferred on the internet.
+Blowfish: It is highly effective and works with great speed which encrypts the cipher messages individually.
+Twofish: It is similar to blowfish with keys of length 256 bits.
+AES: Of all algorithms, AES is the strongest encryption algorithm to breach out as it uses 192 and 256 length bit keys for heavy encryption.",loans
+What is an ICO?,ICO or an Initial Coin Offering is a way to raise the company’s capital. The company create an additional token or a coin and sell it to the investors in exchange for the cash or other cryptocurrencies usually ethereum and bitcoin. You must take care in ICO that these are very risky and have a high risk of a scam.,loans
+What is a Metamask and what is the type of Node Metamask uses,The Metamask is software used to interlink the Ethereum network with the networks of the browser.,loans
+ Explain pragma and provide its syntax.,"Pragma is a version of Solidity that will be used by the code that is written in the solidity. For using solidity as a compiler and writing smart contracts the version should be higher than 0.4.0. Every Smart contract starts with pragma only.
+
+Syntax: version pragma ^0.4.00.",loans
+What are events in Solidity?,"An event allows contracts to return values to the user interface here an event function comes into action. Alternatively, if you want to create some synchronous trigger with data of your smart contract then an event is written in a program. They can also be used as a log in the system.",loans
+What is Inheritance in Solidity?,Multiple Inheritances is supported by solidity which includes polymorphism. In this only one contract gets executed while the code from all the other contracts gets inherited into the final contract.,loans
+"What is ‘blind signature’ and why is it used?
+","Blind Signature is a digital signature wherein all the information pertaining to a contract is made blind before it is actually agreed upon and sealed with a sign. This approach is a crucial component of cryptography and is mainly used for privacy-related protocols (for example, digital cash scheme) where the author and the signing parties are different.",loans
+What is ‘encryption’?,"Blockchain assures a safe and secure ecosystem for data, and that it does through encryption. Essentially, encryption is the process where data is encoded or altered slightly before a user sends it out of a network. This ensures data safety and security since only the sender and receiver know the key to decode the encrypted code.  ",loans
+Explain ‘secret sharing.’,"Secret Sharing is a method dedicated to protecting data integrity in Blockchain. In this method, the information or data is divided into different units and then transferred to the users on the Blockchain network. To complete the entire information, users who received the chunks of broken information must agree to share their pieces of information and combine them together.
+
+",loans
+"Mention the steps involved in Blockchain project implementation.
+","Requirement identification
+Screen ideas consideration
+Project development for Blockchain
+Feasible study on the security
+Implementation
+Controlling and monitoring the project",loans
+How to Store Your Bitcoin,Use a digital or paper wallet,loans
+What Can You Buy with Bitcoin?,"From an exchange or an individual
+",loans
+"Why Use Bitcoin?
+","It's fast, cheap to use, and secure
+
+",loans
+"What is Bitcoin?
+","It's a decentralized digital currency
+
+",loans
+"How do Bitcoin Transactions Work?
+","Bitcoin addresses and private keys
+
+",loans
+"Who is The founder or creator of bitcoin
+","Satoshi Nakamoto
+",loans
+Who is The founder or creator of ethereum,vitalik butarin,loans
+"What is a DAO?
+","A 'decentralized autonomous organization'
+",loans
+"How Do Ethereum Smart Contracts Work?
+","Code, transaction fees and 'gas'
+",loans
+"How Will Ethereum Scale?
+","‘Sharding’ and ‘off-chain’ transactions
+",loans
+"How to Mine Ethereum
+","GPUs, mining software and pools
+",loans
+What is the Genesis Block?,its the first block of the blockchain,loans
